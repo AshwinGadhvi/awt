@@ -1,4 +1,4 @@
-// const { reject } = require("async");
+// const { reject } = require("async"); 
 console.log("ashwin 1");
 let promise = new Promise((resolve,reject)=>{
     setTimeout(()=>{
