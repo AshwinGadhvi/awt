@@ -24,7 +24,7 @@ const mainIndedx = user.findIndex((Element)=>{
     return Element.Age === 27;
 })
 const user2 = user;
-[...user2.slice(0,mainIndedx),40,...user2.slice(mainIndedx+1)];
+user2 = [...user2.slice(0,mainIndedx),40,...user2.slice(mainIndedx+1)];
 
 console.log(user2);
 console.log(user);
