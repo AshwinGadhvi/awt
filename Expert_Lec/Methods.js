@@ -154,7 +154,8 @@ const gender1 = data.reduce((p, c) => {
 console.log(gender1);
 
 const age = data.reduce((p,c)=>{
-    const key = c.age;
+    const addGroup = Math.floor(c.age/10);
+    const key = `${addGroup}0-`
     if(p[key] === undefined){
         p[key] = [];
     }
