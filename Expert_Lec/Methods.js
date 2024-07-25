@@ -154,7 +154,7 @@ const gender1 = data.reduce((p, c) => {
 console.log(gender1);
 
 const age = data.reduce((p,c)=>{
-    const key = (c.age>20 && c.age<30)?"20-29":"31-39";
+    const key = c.age;
     if(p[key] === undefined){
         p[key] = [];
     }
