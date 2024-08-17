@@ -10,6 +10,7 @@ async function function2(){
     console.log('calling');
     const result = await function1();
     console.log(result);
+    console.log("Navu Kaik");
 }
 
 function2();
