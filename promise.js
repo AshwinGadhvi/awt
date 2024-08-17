@@ -2,7 +2,7 @@
 console.log("ashwin 1");
 let promise = new Promise((resolve,reject)=>{
     setTimeout(()=>{
-        let success = false;
+        let success = true;
         if(success){
             resolve("operation was successfully");
         }
