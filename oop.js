@@ -29,7 +29,7 @@ class User{
         return `${name[0].toUpperCase()}${name.slice(1)}`;
     }
     displayDetails(){
-        return `Name: ${this.name}, Age: ${this.age},And My Favorite Movie is : ${User.movie}`
+        return `Name: ${this.name}, Age: ${this.age},And My Favorite Movie is : ${User.crow()}`
     }
 }
 
