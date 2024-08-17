@@ -59,7 +59,7 @@ const indx = data2.reduce((p, c, i) => {
     return p;
 }, -1);
 
-console.log(indx);
+console.log("Data : "+indx);
 
 const male = data2.reduce((p, c, i) => {
     if (c.gender === "male") {
